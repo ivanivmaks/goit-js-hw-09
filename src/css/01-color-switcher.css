@@ -1,0 +1,35 @@
+.btn-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-inline-start: 0;
+  margin: 0;
+  position: absolute;
+  top: 47%;
+  left: 38%;
+}
+
+.btn {
+  width: 109px;
+  height: 41px;
+  left: 24px;
+  top: 934px;
+  background-color: #fd9222;
+  border-radius: 100px;
+  border-color: transparent;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background-color: grey;
+  color: #beadad;
+}
